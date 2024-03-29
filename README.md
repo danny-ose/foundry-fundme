@@ -1,5 +1,18 @@
 # Getting Started
 
+## Overview
+This smart contract implements a simple funding mechanism for a project. It has the following key features:
+
+- The contract owner sets a minimum funding amount in USD, which must be met by all funders.
+- Funders can contribute any amount of ETH, and their contributions are tracked in a mapping.
+- A price feed is used to convert the ETH value of each contribution to USD.
+- Withdrawals can be made by the contract owner, who receives all contributions in their own wallet.
+- A list of funders is maintained, and can be accessed by anyone.
+
+
+Overall, this contract provides a basic framework for managing contributions to a project, with the ability to track funders and their contributions in a transparent manner.
+
+
 ## Requirements
 
 - [git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
